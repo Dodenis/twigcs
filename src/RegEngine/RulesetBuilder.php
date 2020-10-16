@@ -524,7 +524,7 @@ class RulesetBuilder
             ['$➀>➁$', $this->binaryOpSpace('>')],
             ['$➀!=➁$', $this->binaryOpSpace('!=')],
             ['$➀==➁$', $this->binaryOpSpace('==')],
-            ['$➀=➁$', $this->binaryOpSpace('=')],
+            //['$➀=➁$', $this->binaryOpSpace('=')],
             ['$➊b-and➋$', $this->binaryOpSpace('b-and', '➊', '➋')],
             ['$➊b-xor➋$', $this->binaryOpSpace('b-xor', '➊', '➋')],
             ['$➊b-or➋$', $this->binaryOpSpace('b-or', '➊', '➋')],

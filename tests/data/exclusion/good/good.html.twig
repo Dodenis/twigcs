@@ -1,1 +1,9 @@
-{{ dump('twig') }}
+{{ dump('twig', good=toto) }}
+{{ dump('twig', test= toto) }}
+{{ include('twig', truc =toto) }}
+{{ for('twig', machin = toto) }}
+{{ for('twig', machin = toto, bidule= toto, truc =toto) }}
+{% set toto = titi %}
+{% set totou=titi %}
+
+{{ for('twig', machin={a: 'b = 6'}) }}

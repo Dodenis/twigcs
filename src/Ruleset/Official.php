@@ -33,6 +33,7 @@ class Official implements RulesetInterface
         return [
             new Rule\LowerCaseVariable(Violation::SEVERITY_ERROR),
             new Rule\RegEngineRule(Violation::SEVERITY_ERROR, $builder->build()),
+            new Rule\NamedVariable(Violation::SEVERITY_ERROR),
             new Rule\TrailingSpace(Violation::SEVERITY_ERROR),
             new Rule\UnusedMacro(Violation::SEVERITY_WARNING),
             new Rule\UnusedVariable(Violation::SEVERITY_WARNING),
